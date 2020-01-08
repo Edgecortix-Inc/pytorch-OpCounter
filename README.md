@@ -1,7 +1,8 @@
 # THOP: PyTorch-OpCounter
 
-## How to install: 
+From: https://github.com/Lyken17/pytorch-OpCounter
 
+## How to install: 
 `pip install --upgrade git+https://github.com/Edgecortix-Inc/pytorch-OpCounter.git`
     
 ## How to use 
@@ -12,7 +13,7 @@
     model = resnet50()
     input = torch.randn(1, 3, 224, 224)
     flops, params = profile(model, inputs=(input, ))
-    ```    
+    ```    Edgecortix-Inc/tvm
 
 * Define the rule for 3rd party module.
     ```python
