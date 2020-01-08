@@ -1,6 +1,6 @@
 # THOP: PyTorch-OpCounter
 
-## How to install 
+## How to install: 
 
 `pip install --upgrade git+https://github.com/Edgecortix-Inc/pytorch-OpCounter.git`
     
